@@ -1,0 +1,9 @@
+{
+  "image": "docker.io/robinmordasiewicz/devcontainer:latest",
+  "initializeCommand": "docker pull docker.io/robinmordasiewicz/devcontainer:latest",
+  "name": "azure_speech_service_tts",
+  "runArgs": [
+    "--name=azure_speech_service_tts",
+    "--hostname=azure_speech_service_tts"
+      ]
+}
